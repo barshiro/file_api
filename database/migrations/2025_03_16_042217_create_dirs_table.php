@@ -21,9 +21,8 @@ class CreateDirsTable extends Migration
         });
         DB::table('dirs')->insert([
             'UUID_DIR' => '01a4d274-3c8f-4bed-bd78-e8406d64a272',
-            'UUID_USER' => '242b72c2-2d84-4a7a-bfa0-e0068873783d',
+            'UUID_USER' => '14bb2d14-9950-434f-8a6d-b5c2bd21d967',
             'name' => 'work_2 (копия) (копия)',
-            'parent_dir' => '28857830-1300-4c12-8160-cbd3c25e9fd2',
             'created_at' => '2025-03-31 13:59:59',
             'updated_at' => '2025-03-31 13:59:59',
         ]);
