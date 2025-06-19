@@ -15,6 +15,14 @@ class CreateUsersTable extends Migration
             $table->string('password_hash', 255);
             $table->timestamps();
         });
+        DB::table('users')->insert([
+            'UUID_USER' => '14bb2d14-9950-434f-8a6d-b5c2bd21d967',
+            'login' => 'testuser',
+            'mail' => 'testuser@example.com',
+            'password_hash' => '$2y$12$RYUdI.K003LbEF3IWLz3u.6rvN2JNfcI9lGDdPBiKqSdSXrxJJ8/m',
+            'created_at' => '2025-03-30 01:12:57',
+            'updated_at' => '2025-03-30 01:12:57',
+        ]);
     }
 
     public function down()
